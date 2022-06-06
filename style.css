@@ -1,0 +1,325 @@
+body {
+    font-family: 'Lato', arial, sans-serif;
+    color: #393E46;
+    background: #DAE3E7;
+    font-size: 16px;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #222831;
+  }
+  a {
+    color: #222831;
+  }
+  .btn, a.btn {
+    font-family: 'Montserrat', arial, sans-serif;
+    padding: 8px 16px;
+    font-weight: bold;
+  }
+  .btn .fa, a.btn .fa {
+    margin-right: 5px;
+  }
+  .text-highlight {
+    color: #32383e;
+  }
+  .header {
+    padding: 30px 0;
+    background: #f5f5f5;
+    border-top: 10px solid #00ADB5;
+  }
+  .header .btn {
+    margin-top: 60px;
+    font-weight: bold;
+  }
+  .header .profile-image {
+    margin: 5px 20px 10px;
+    padding: 15px;
+    width: 15rem;
+    float: left;
+  }
+  .header .profile-content .name {
+    color: #222831;
+    font-size: 3rem;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    display: inline-block;
+  }
+  .header .profile-content .desc {
+    color: #393E46;
+    font-family: "Lato", arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.75rem;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  .header .profile-content .social i{
+    color: #222831;
+    text-align: center;
+    margin: 12px;
+  }
+  .header .profile-content .social i:hover {
+    color: #00ADB5;
+  }
+  .header .mlsk .btn{
+    /* float: right; */
+    position: absolute;
+  }
+  .header .mlsk .btn-primary{
+    background-color: #00ADB5;
+    right: 10rem;
+    top: 9.4rem;
+  }
+  .header .mlsk .btn-outline-dark{  
+    top: 9.4rem;
+    right: 17.5rem;
+  }
+  .header .mlsk .btn-primary:hover{
+    background-color: #048d94;
+  }
+  /* ======= Sections======= */
+  .sections-wrapper {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .section {
+    margin-bottom: 30px;
+  }
+  .section .section-inner {
+    background: #f5f5f5;
+    padding: 30px;
+  }
+  .section .heading {
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #222831;
+    font-size: 24px;
+  }
+  .section .content .more-link .fa {
+    margin-right: 5px;
+    font-size: 14px;
+  }
+  /* Latest Section */
+  .latest .item {
+    margin-bottom: 30px;
+  }
+  .latest .item .title {
+    font-size: 18px;
+    margin-top: 0;
+  }
+  .latest .item .title a {
+    color: #222831;
+  }
+  .latest .item .title a:hover {
+    color: #00ADB5;
+  }
+  .latest .item .project-image:hover {
+    opacity: 0.8;
+  }
+  .latest .divider {
+    margin-bottom: 60px;
+  }
+  .latest .featured {
+    margin-bottom: 60px;
+  }
+  .latest .featured .title {
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+  .latest .featured .summary {
+    margin: 20px 30px;
+    color: #393E46;
+  }
+  .latest .featured img {
+    margin-bottom: 30px;
+  }
+  .latest .featured .desc {
+    margin-bottom: 30px;
+  }
+  .latest .featured-image {
+    position: relative;
+  }
+  .latest .featured-image .text {
+    background: #00ADB5;
+    color: #fff;
+  }
+  /* Projects Section */
+  .projects .item {
+    margin-bottom: 30px;
+  }
+  .projects .item .title {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    line-height: 1.5;
+  }
+  .projects .item .title a {
+    color: #222831;
+  }
+  .projects .item .title a:hover {
+    color: #00ADB5;
+  }
+  /* Info Section */
+  .info ul {
+    margin-bottom: 0;
+  }
+  .info li {
+    margin-bottom: 15px;
+  }
+  /* Skills Section */
+  .skills .intro {
+    margin-bottom: 30px;
+  }
+  .skills .skillset .item {
+    margin-bottom: 30px;
+  }
+  .skills .skillset .level-title {
+    font-size: 16px;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 10;
+  }
+  .skills .skillset .level-title .level-label {
+    color: #ccd1d6;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Lato", arial, sans-serif;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .skills .skillset .level-bar {
+    height: 15px;
+    background: #e8e8e8;
+  }
+  .skills .skillset .level-bar-inner {
+    height: 15px;
+    background: #00ADB5;
+  }
+  /* Education section */
+  .education .item {
+    margin-bottom: 30px;
+  }
+  .education .item:last-child {
+    margin-bottom: 0;
+  }
+  .education .item .title {
+    font-size: 16px;
+    margin-top: 0;
+  }
+  .education .item .university {
+    font-family: "Lato", arial, sans-serif;
+    font-size: 13px;
+    color: #999;
+    font-weight: 600;
+    padding-left: 25px;
+  }
+  .education .item .university .year {
+    color: #b0b7bf;
+    font-weight: 500;
+  }
+  /* Language Section */
+  .languages .item {
+    margin-bottom: 15px;
+  }
+  .languages .item .title {
+    color: #393E46;
+  }
+  .languages .item .level {
+    color: #999;
+  }
+  .languages .item .fa {
+    color: #00ADB5;
+  }
+  /* List section */
+  .list ul li {
+    margin-bottom: 10px;
+  }
+  .list ul li a {
+    color: #393E46;
+  }
+  .list ul li a:hover {
+    color: #00ADB5;
+  }
+  /* ======= Footer ======= */
+  .footer {
+    background: #00ADB5;
+    color: #222831;
+    padding: 10px 0;
+  }
+  .footer .copyright {
+    line-height: 1.6;
+    color: #222831;
+    font-size: 14px;
+  }
+  .footer a {
+    color: #393E46;
+  }
+  /* Extra small devices (phones, less than 768px) */
+  @media (max-width: 767px) {
+    .header {
+      text-align: center;
+    }
+    .header .profile-image {
+      float: none !important;
+      margin: 0 auto;
+    }
+    .header .profile-content {
+      float: none !important;
+      text-align: center;
+    }
+    .header .btn {
+      margin-top: 30px;
+      float: none !important;
+    }
+    .project-image {
+      margin-bottom: 15px;
+    }
+    .header .mlsk .btn{
+      position: static;
+      margin: 7px
+    }
+    .header .profile-content .social li{
+      margin: auto;
+    }
+    .header .profile-content .social{
+      margin: 0 30% 5% 30%;
+    }
+  }
+  /* Small devices (tablets, 768px and up) */
+  /* Medium devices (desktops, 992px and up) */
+  /* Large devices (large desktops, 1200px and up) */
+  /* Ex-Large devices (large desktops, 1200px and up) */
+  @media (max-width: 992px) {
+    .header {
+      text-align: center;
+    }
+    .header .profile-image {
+      float: none !important;
+      margin: 0 auto;
+    }
+    .header .profile-content {
+      float: none !important;
+      text-align: center;
+    }
+    .header .btn {
+      margin-top: 30px;
+      float: none !important;
+    }
+    .header .mlsk .btn{
+      position: static;
+      margin: 7px
+    }
+    .header .profile-content .social li{
+      margin: auto;
+    }
+    .header .profile-content .social{
+      margin: 0 30% 5% 30%;
+    }
+  }
+  @media (min-width: 1400px) {
+    .container {
+      width: 1360px;
+    }
+    
+  }
