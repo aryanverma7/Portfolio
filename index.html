@@ -1,270 +1,900 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aryan Verma | Engineering Undergraduate</title>
-    <meta name="description" content="Aryan Verma | Engineering Undergraduate">
-    <meta name="author" content="Aryan">    
-    <link rel="icon" href="favi.ico">
-    <!-- Google Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/df05b13b5c.js" crossorigin="anonymous"></script>
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <!-- Internal CSS -->
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header class="header">
-        <div class="container">                      
-            <img class="profile-image img-fluid" src="images/ary.png" alt="Aryan Verma" />
-            <div class="profile-content">
-                <h1 class="name">Aryan Verma</h1>
-                <h2 class="desc">Engineering Undergraduate
-                </h2>   
-                <br>
-                <ul class="social list-group list-group-horizontal" style="list-style-type:none">
-                    <li><a href="https://github.com/aryanverma7" target="_blank" title="Github account of Aryan Verma"><i class="fa-brands fa-github fa-2x"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/aryverma/" target="_blank" title="Linkedin Profile of Aryan Verma"><i class="fa-brands fa-linkedin-in fa-2x"></i></a></li>
-                    <li><a href="https://www.instagram.com/_aryannnv_/" target="_blank" title="Instagram profile of Aryan Verma"><i class="fa-brands fa-instagram fa-2x"></i></a></li>
-                </ul>
-            </div>
-            <div class="mlsk">
-                <a class="btn btn-outline-dark" href="mailto:aryanadiverma@gmail.com" target="_blank" title="Mail to aryanadiverma@gmail.com"><i class="fa fa-envelope"></i> Mail</a>
-                <a class="btn btn-primary" href="https://join.skype.com/invite/u8gQLKfU5znm" title="Contact Aryan Verma using Skype"><i class="fa fa-skype"></i> CHAT</a>
-            </div>  
-        </div>
-    </header>
-    
-    <div class="container sections-wrapper">
-        <div class="row">
-            <div class="primary col-md-8 col-sm-12 col-xs-12">
-                <section class="about section">
-                    <div class="section-inner">
-                        <h2 class="heading">About Me</h2>
-                        <div class="content">
-                            <p>I am a BTech student pursuing a Computer Science degree. As I traveled a lot as a kid, I was exposed to a lot of different cultures and individuals. As a result, I'm able to swiftly adapt to changes and see things from a different viewpoint. My goal is to gain knowledge and implement my abilities in the most effective way possible to help the company achieve its goals via teamwork, so that I may improve my skills in line with current trends and prove to be an asset to the organization through hard effort and dedication.</p>
-                            <p>
-                                <b>Languages :</b> C, C++, Python<br>
-                                <b>Tools :</b> Git, Github<br>
-                                <b>Web Dev :</b> HTML, CSS, Javascript<br>
-                            </p>
-                            <!-- <p>
-                                <b>Experience</b>
-                            </p>
-                            <p>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-                            </p> -->
-                        </div>
-                    </div>     
-                </section>
-                
-                <section class="latest section">
-                    <div class="section-inner">
-                        <h2 class="heading">Projects</h2>
-                        <div class="content">         
-                            <div class="item featured text-center">
-                                <h3 class="title"><a href="https://github.com/aryanverma7/Simon-Game" target="_blank">Simon Game</a></h3>
-                                <p class="summary">This is a Simon Game Website made using HTML, CSS, JavaScript.</p>
-                                <div class="featured-image">
-                                    <a href="https://aryanverma7.github.io/Simon-Game/" target="_blank">
-                                        <img class="img-fluid project-image" src="images/simon.png" alt="Simon Game" />
-                                    </a>
-                                </div>
-                                <div class="desc text-left">                                    
-                                    <p> In this game we have to remember the previous pattern and follow it up with the new randomly generated pattern. We start the game by pressing any key on the keyboard. If we guess the answer wrong the game is reset, which can be played again by pressing any key.</p>
-                                    <div class="desc text-left">
-                                        <p><b>Technology Stack</b> - HTML, CSS, JavaScript<br></p>
-                                    </div>
-                                </div> 
-                                </div>
-                                    <hr class="divider" />
-                                    <div class="item row">
-                                        <a class="col-md-4 col-sm-4 col-xs-12" href="#" target="_blank">
-                                            <img class="img-fluid project-image" src="images/tindog.png" alt="Tindog" />
-                                        </a>
-                                        <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                            <h3 class="title"><a href="https://aryanverma7.github.io/Tindog/" target="_blank">Tindog</a></h3>
-                                            <p>A dating website for dogs made using HTML, CSS (Bootstrap)</p>
-                                            <p><a class="more-link" href="https://github.com/aryanverma7/Tindog" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
-                                        </div>                       
-                                    </div>
-                                    <div class="item row">
-                                        <a class="col-md-4 col-sm-4 col-xs-12" href="#" target="_blank">
-                                            <img class="img-fluid project-image" src="images/drum.png" alt="Drum Kit" />
-                                        </a>
-                                        <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                            <h3 class="title"><a href="https://aryanverma7.github.io/Drum-Kit/" target="_blank">Drum Kit</a></h3>
-                                    <p>This is a website which plays the sounds of the drum kit based on which key you press or the button you click on.</p>
-                                    <p><a class="more-link" href="https://github.com/aryanverma7/Drum-Kit" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
-                                </div>                       
-                            </div>
+        <!--==================== ICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="main.css">
+
+        <link rel="icon" href="assets/img/icon.ico">
+
+        <title>Aryan's Portfolio</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    Aryan Verma
+                </a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="uil uil-estate nav__icon"></i>Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i>About
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i>Skills
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#qualifications" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i>Qualifications
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link">
+                                <i class="uil uil-scenery nav__icon"></i>Portfolio
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i>Contact Me
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="https://www.linkedin.com/in/aryverma/" target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin"></i>
+                            </a>
+
+                            <a href="https://twitter.com/Aryannnvx" target="_blank" class="home__social-icon">
+                                <i class="uil uil-twitter"></i>
+                            </a>
+
+                            <a href="https://join.skype.com/invite/u8gQLKfU5znm" target="_blank" class="home__social-icon">
+                                <i class="uil uil-skype"></i>
+                            </a>
+
+                            <a href="https://github.com/aryanverma7" target="_blank" class="home__social-icon">
+                                <i class="uil uil-github"></i>
+                            </a>
                             
-                            <div class="item row">
-                                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                    <h3 class="title"><a href="https://github.com/aryanverma7/Healthy-Programmer" target="_blank">Healthy Programmer</a></h3>
-                                    <p>This is a program with a timer to remind the programmer to drink water, get some eye rest, and do exercise at particular time intervals. It plays songs to give a reminder and requires a text to be input for it to stop.</p>
-                                    <p><a class="more-link" href="https://github.com/aryanverma7/Healthy-Programmer" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
-                                </div>                
-                            </div>                     
-                            <div class="item row">
-                                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                    <h3 class="title"><a href="https://github.com/aryanverma7/Library-Management" target="_blank">Library Management</a></h3>
-                                    <p>In this program the names of the books are taken from the user and stored in the list. Then according to the user we do functions in the lists such as deleting (renting book), appending (returning book/adding book), display(displaying the books in the library) acc to the library</p>
-                                        <p><a class="more-link" href="https://github.com/aryanverma7/Library-Management" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
-                                    </div>           
+                            <a href="mailto:aryanadiverma@gmail.com" target="_blank" class="home__social-icon">
+                                <i class="uil uil-envelope"></i>
+                            </a>
+
+                        </div>
+                        <div class="home__img">
+                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                    
+                                    <image class="home__blob-img" x='12' y='0' xlink:href="assets/img/aryanmain.png" alt="Image Coming Soon"/>
+                                </g>
+                            </svg>                        
+                        </div>
+                        <div class="home__data">
+                            <h1 class="home__title">
+                                Hi, I'm Aryan
+                            </h1>
+                            <h3 class="home__subtitle">
+                                Full Stack Developer
+                            </h3>
+                            <p class="home__description">
+                                An Aspiring Software Engineer with a passion for solving problems.
+                            </p>
+                            <a href="#contact" class="button button--flex">
+                                Contact Me <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                            <span class="home__scroll-name">
+                                Scroll down
+                            </span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section hidden" id="about">
+                <h2 class="section__title">
+                    About Me
+                </h2>
+                <span class="section__subtitle">
+                    My Introduction
+                </span>  
+                
+                <div class="about__container container grid">
+                    <img src="assets/img/aryan.jpg" alt="My Picture" class="about__img">
+                    <div class="about__data">
+                        <p class="about__description">
+                            I am a B.Tech student pursuing a Computer Science degree at SRM Institute Of Technology. <br>
+                            As I travelled a lot as a kid, I was exposed to a lot of different cultures and individuals. As a result, I'm able to swiftly adapt to changes and see things from a different viewpoint. My goal is to gain knowledge and implement my abilities in the most effective way possible via teamwork, so that I may improve my skills in line with current trends through hard work and dedication.
+                        </p>
+                        <div class="about__info">
+                            <div>
+                                <span class="about__info-title">
+                                    6
+                                </span>
+                                <span class="about__info-name">
+                                    Certifications
+                                </span>
+                            </div>
+                            <div>
+                                <span class="about__info-title">
+                                    9.25
+                                </span>
+                                <span class="about__info-name">
+                                    CGPA
+                                </span>
+                            </div>
+                            <div>
+                                <span class="about__info-title">
+                                    Available
+                                </span>
+                                <span class="about__info-name">
+                                    for
+                                    <br>
+                                    Internships
+                                </span>
+                            </div>
+                        </div>
+                        <div class="about__buttons">
+                            <a download="" href="assets/pdf/Aryan's Resume.pdf" class="button button--flex">
+                                Download CV
+                                <i class="uil uil-file-download-alt button__icon"></i>
+                            </a>
+                        </div>
+                    </div>                
+                </div>
+            </section>
+
+            <!--==================== SKILLS ====================-->
+            <section class="skills section hidden" id="skills">
+                <h2 class="section__title">
+                    Skills
+                </h2>
+                <span class="section__subtitle">
+                    My Technical Abilities
+                </span>
+                <div class="skills__container container grid">
+                    <div>
+                        <!--==================== SKILLS 1 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-brackets-curly skills__icon"></i>
+                                <div>
+                                    <h1 class="skills__title">
+                                        Programming Languages
+                                    </h1>
+                                </div>
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            C
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://github.com/devicons/devicon/raw/master/icons/c/c-original.svg" alt="">
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            C++
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://github.com/devicons/devicon/raw/master/icons/cplusplus/cplusplus-original.svg" alt="">
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            Python
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="">
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            JavaScript
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="">
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--==================== SKILLS 3 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-apps skills__icon"></i>
+                                <div>
+                                    <h1 class="skills__title">
+                                        Other Tools
+                                    </h1>
+                                </div>
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            Postman
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="assets/img/postman.png" alt="">
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            RapidAPI
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="assets/img/rapidapi.svg" alt="">
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            Netlify
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="assets/img/netlify.svg" alt="">
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            Heroku
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://github.com/devicons/devicon/raw/master/icons/heroku/heroku-original.svg" alt="">
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            Git
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://github.com/devicons/devicon/raw/master/icons/git/git-original.svg" alt="">
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            AWS
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://github.com/devicons/devicon/raw/master/icons/amazonwebservices/amazonwebservices-original.svg" alt="">
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            Google Cloud Platform
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://github.com/devicons/devicon/raw/master/icons/googlecloud/googlecloud-original.svg" alt="">
+                                        </span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        
+                        <!--==================== SKILLS 2 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-scenery skills__icon"></i>
+                                <div>
+                                    <h1 class="skills__title">
+                                        Web Development Tools
+                                    </h1>
+                                </div>
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            HTML
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="">
+                                        </span>
+                                    </div>
                                 </div>
                                 
-                            </div>
-                    </div>                 
-                </section>
-                <section class="projects section">
-                    <div class="section-inner">
-                        <h2 class="heading">Other Projects</h2>
-                        <div class="content">
-                            <div class="item">
-                                <h3 class="title"><a href="https://aryanverma7.github.io/Dice-Roller/">Dice Roller</a></h3>
-                                <p class="summary">In this website 2 random numbers are generated and it displays the dices of the given numbers and the sum of the 2 numbers. This website can be used while playing gmaes like Ludo or Monopoly.</p>
-                                <p><a class="more-link" href="https://github.com/aryanverma7/Dice-Roller" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
-                            </div>
-                            <div class="item">
-                                <h3 class="title"><a href="https://github.com/aryanverma7/Folder-Sorter">Folder Sorter</a> </h3>
-                                <p class="summary">This program is to rename all the files of the given type numerically from 1 and capitalize the first letter of the other remaining files. It avoids changing the files whose name is given in the dont_change.txt.</p>
-                                <p><a class="more-link" href="https://github.com/aryanverma7/Folder-Sorter" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
-                            </div>
-                            <div class="item">
-                                <h3 class="title"><a href="https://github.com/aryanverma7/Health-Management">Health Management</a></h3>
-                                <p class="summary">This is a program in Python which uses file handling to write and read data regarding the diet and exercises done by a person with a time stamp.</p>
-                                <p><a class="more-link" href="https://github.com/aryanverma7/Health-Management" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
-                            </div>    
-                        </div>
-                    </div>             
-                </section>
-                   
-                </div><!--//primary-->
-                <div class="secondary col-md-4 col-sm-12 col-xs-12">
-                    <aside class="info aside section">
-                        <div class="section-inner">
-                            <h2 class="heading sr-only">Basic Information</h2>
-                            <div class="content">
-                                <ul class="list-unstyled">
-                                    <li><i class="fa-solid fa-location-dot"></i> Location: Chennai, Tamil Nadu, India</li>
-                                    <li><i class="fa-solid fa-envelope"></i> Email: <a href="mailto:aryanadiverma@gmail.com" title="Mail to aryanadiverma@gmail.com">aryanadiverma@gmail.com</a></li>                                    
-                                    <li><i class="fa-solid fa-file-pdf"></i> Resume: </span><a href="https://drive.google.com/file/d/1_67wb1w2oR_VKk7Lrv2wCAKL8SZItf2G/view?usp=sharing" title="Download CV in pdf" target="_blank">Download CV</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </aside>
-                    <aside class="skills aside section">
-                        <div class="section-inner">
-                            <h2 class="heading">Skills</h2>
-                                <div class="skillset">
-                                <div class="item">
-                                    <h3 class="level-title">Python<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true">Intermediate  </span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="75%" style="width: 90%;"></div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            CSS
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="">
+                                        </span>
                                     </div>
                                 </div>
-                                <div class="item">
-                                    <h3 class="level-title">C/C++<span class="level-label" data-original-title="" title="">Expert</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="90%" style="width: 75%;"></div>
+                                
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            JavaScript
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="">
+                                        </span>
                                     </div>
                                 </div>
-                                <div class="item">
-                                    <h3 class="level-title">HTML<span class="level-label" data-original-title="" title="">Intermediate</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="60%" style="width: 60%;">
-                                        </div>
-                                    </div>
-                                </div>    
-                                <div class="item">
-                                    <h3 class="level-title">CSS<span class="level-label" data-original-title="" title="">Intermediate</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="70%" style="width: 80%;">
-                                        </div>
+                                
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            BootStrap
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://github.com/devicons/devicon/raw/master/icons/bootstrap/bootstrap-original.svg" alt="">
+                                        </span>
                                     </div>
                                 </div>
-                                <div class="item">
-                                    <h3 class="level-title">JavaScript<span class="level-label" data-original-title="" title="">Expert</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="80%" style="width: 80%;">
-                                        </div>
+                                
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            JQuery
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://github.com/devicons/devicon/raw/master/icons/jquery/jquery-plain.svg" alt="">
+                                        </span>
                                     </div>
-                                    <p><a class="more-link" href="https://www.linkedin.com/in/aryverma/" target="_blank"><i class="fa fa-external-link" title="View linkedin profile of Aryan Verma"></i> More on Linkedin</a></p>
                                 </div>
-                            </div>
-                        </div>
-                    </aside>                
-                    <aside class="education aside section">
-                        <div class="section-inner">
-                        <h2 class="heading">Education</h2>
-                            <div class="content">
-                                <div class="item">
-                                    <h3 class="title"><i class="fa fa-graduation-cap"></i> Bachelor Of Technology</h3>
-                                    <h4 class="university"><a href="https://www.srmist.edu.in/">SRM Institute of Science and Technology
-                                    </a><span class="year">(2020-2024)</span></h4>
-                                </div>
-                            <div class="item">
-                                <h3 class="title"><i class="fa fa-graduation-cap"></i> AISSCE</h3>
-                                <h4 class="university"><a href="https://davnerul.com/">DAV Public School Nerul</a><span class="year"> (2019-20120)</span></h4>
-                            </div>
-                        </div>
-                    </div>
-                </aside>                
-                <aside class="languages aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Languages</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li class="item">
-                                    <span class="title"><strong>English:</strong></span>
-                                    <span class="level">Professional <br class="visible-xs"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </span>
-                                </li>
-                                <li class="item">
-                                    <span class="title"><strong>Hindi:</strong></span>
-                                    <span class="level"> Native Speaker <br class="visible-sm visible-xs"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
-                                </li>
-                                <li class="item">
-                                    <span class="title"><strong>Japanese:</strong></span>
-                                    <span class="level">Elementary <br class="visible-sm visible-xs"><i class="fa fa-star"></i></span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </aside>
-                <aside class="list hobbies aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Hobbies</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li><i class="fa fa-gamepad"></i><a href="https://www.youtube.com/shorts/8JMne_9XXTM" target="_blank"> Gaming</a></li>
-                                <li><i class="fa fa-headphones"></i> <a href="https://open.spotify.com/user/31ss5fbw6bzli57u4m3ddm4i537i" target="_blank"> Music</a></li>
-                                <li><i class="fa fa-paintbrush"></i> <a href="https://www.instagram.com/p/B-r3e-SlRvC/" target="_blank"> Drawing</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </aside>
-            </div>
-        </div>    
-    </div>
-</div>
-    
-<!-- ******FOOTER****** --> 
-<footer class="footer">
-    <div class="container text-center">
-        <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
-        <small class="copyright">Designed by <a href="#" target="_blank">Aryan Verma</a></small>
-    </div><!--//container-->
-</footer><!--//footer-->
 
-    <!-- Javascript -->          
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>  
-    <script src="index.js"></script> 
-</body>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">                                            
+                                            Node.js
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="">
+                                        </span>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            Express.js
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="">
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">
+                                            React.js
+                                        </h3>
+                                        <span class="skills__logo">
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="">
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                            <!--==================== SKILLS 3 ====================-->
+                            <div class="skills__content skills__close">
+                                <div class="skills__header">
+                                    <i class="uil uil-swatchbook skills__icon"></i>
+                                    <div>
+                                        <h1 class="skills__title">
+                                            Databases
+                                        </h1>
+                                    </div>
+                                    <i class="uil uil-angle-down skills__arrow"></i>
+                                </div>
+                                <div class="skills__list grid">
+                
+                                    <div class="skills__data">
+                                        <div class="skills__titles">
+                                            <h3 class="skills__name">
+                                                SQLite
+                                            </h3>
+                                            <span class="skills__logo">
+                                                <img src="https://github.com/devicons/devicon/raw/master/icons/sqlite/sqlite-original.svg" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                
+                                    <div class="skills__data">
+                                        <div class="skills__titles">
+                                            <h3 class="skills__name">
+                                                MongoDB
+                                            </h3>
+                                            <span class="skills__logo">
+                                                <img src="https://github.com/devicons/devicon/raw/master/icons/mongodb/mongodb-original.svg" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div>
+                    
+                </div>
+            </section>
+            
+            <!--==================== QUALIFICATION ====================-->
+            <section class="qualification section hidden" id="qualifications">
+                <h2 class="section__title">Qualifications</h2>
+                <span class="section__subtitle"></span>
+
+                <div class="qualification__container container">
+                    <div class="qualification__tabs">
+                        <div class="qualification__button button--flex qualification__active" data-target="#education">
+                            <i class="uil uil-graduation-cap qualification__icon"></i>
+                            Education
+                        </div>
+
+                        <div class="qualification__button button--flex" data-target="#work">
+                            <i class="uil uil-briefcase-alt qualification__icon"></i>
+                            Work
+                        </div>
+                    </div>
+
+                    <div class="qualification__sections">
+                        <!--==================== QUALIFICATION CONTENT 1====================-->
+                        <div class="qualification__content qualification__active" data-content id="education">
+                            <!--==================== QUALIFICATION 1 ====================-->
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">
+                                        B.Tech in Computer Science & Engineering
+                                    </h3>
+                                    <span class="qualification__subtitle">
+                                        SRM Institute Of Science and Technology
+                                    </span>
+                                    <div class="qualification__calender">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2020-2024
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+
+                                </div>
+                            </div>
+
+                            <!--==================== QUALIFICATION 2 ====================-->
+                            <div class="qualification__data">
+                                <div>
+
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+
+                                <div>
+                                    <h3 class="qualification__title">
+                                        XII C.B.S.E
+                                    </h3>
+                                    <span class="qualification__subtitle">
+                                        DAV Public School, Nerul
+                                    </span>
+                                    <div class="qualification__calender">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2020
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--==================== QUALIFICATION 3 ====================-->
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">
+                                        X C.B.S.E
+                                    </h3>
+                                    <span class="qualification__subtitle">
+                                        DAV Public School, Nerul
+                                    </span>
+                                    <div class="qualification__calender">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2018
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <!-- <span class="qualification__line"></span> -->
+
+                                </div>
+                            </div>
+                        
+                        </div>
+
+                        <!--==================== QUALIFICATION CONTENT 2====================-->
+                        <div class="qualification__content" data-content id="work">
+                            <!--==================== QUALIFICATION 1 ====================-->
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">
+                                        None <br> 
+                                        :/
+                                    </h3>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PORTFOLIO ====================-->
+            <section class="portfolio section hidden" id="portfolio">
+                <h2 class="section__title">
+                    Portfolio
+                </h2>
+                <span class="section__subtitle">
+                    Most Recent Work
+                </span>
+
+                <div class="portfolio__container container swiper-container">
+                    <div class="swiper-wrapper">
+
+                        <!--==================== PORTFOLIO 1 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/quiz.png" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">
+                                    Quiz Hub
+                                </h3>
+                                <p class="portfolio__description">
+                                    This is a Quiz App made using React.js. The topic and the difficulty chosen by the user are sent to the Quiz API which in return send 10 questions and its answers.
+                                </p>
+                                <a href="https://rquizapp.netlify.app/" class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                                <a href="https://github.com/aryanverma7/Quiz-App" class="button button--flex button--small portfolio__button">
+                                    Repository
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== PORTFOLIO 2 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/todolist.png" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">
+                                    To-Do List
+                                </h3>
+                                <p class="portfolio__description">
+                                    This is a Full Stack ToDo List. We can add new items to the list and delete the completed items. New Lists/Pages can be created by adding path extension to the url as needed.
+                                </p>
+                                <a href="https://frozen-springs-28171.herokuapp.com/" class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                                <a href="https://github.com/aryanverma7/ToDoList_v2" class="button button--flex button--small portfolio__button">
+                                    Repository
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== PORTFOLIO 3 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/simon.png" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">
+                                    Simon Game
+                                </h3>
+                                <p class="portfolio__description">
+                                    This is a Simon Game Website in which we have to remember the previous pattern and follow it up with the new randomly generated pattern.
+                                </p>
+                                <a href="https://aryanverma7.github.io/Simon-Game/" class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                                <a href="https://github.com/aryanverma7/Simon-Game" class="button button--flex button--small portfolio__button">
+                                    Repository
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== PORTFOLIO 4 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/textutil.png" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">
+                                    TextUtils
+                                </h3>
+                                <p class="portfolio__description">
+                                    A Website made using React.js which does various functions to the text typed in the textbox. The website can also switch between light mode and dark mode anytime.
+                                </p>
+                                <a href="https://aryanverma7.github.io/TextUtils/" class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                                <a href="https://github.com/aryanverma7/TextUtils" class="button button--flex button--small portfolio__button">
+                                    Repository
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== PORTFOLIO 5 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/tindog.png" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">
+                                    TinDog
+                                </h3>
+                                <p class="portfolio__description">
+                                    A dating website for dogs made using HTML, CSS (Bootstrap).
+                                </p>
+                                <a href="https://aryanverma7.github.io/Tindog/" class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                                <a href="https://github.com/aryanverma7/Tindog" class="button button--flex button--small portfolio__button">
+                                    Repository
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== PORTFOLIO 6 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/drum.png" alt="" class="portfolio__img">
+                        
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">
+                                    Drum Kit
+                                </h3>
+                                <p class="portfolio__description">
+                                    This is a website which plays the sounds of the drum kit based on which key you press or the button you click on.
+                                </p>
+                                <a href="https://aryanverma7.github.io/Drum-Kit/"
+                                    class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                                <a href="https://github.com/aryanverma7/Drum-Kit"
+                                    class="button button--flex button--small portfolio__button">
+                                    Repository
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
+
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+
+            <!--==================== PROJECT IN MIND ====================-->
+            <section class="project section hidden">
+                <div class="project__bg">
+                    <div class="project__container container grid">
+                        <div class="project__data">
+                            <h2 class="project__title">
+                                You have a new project?
+                            </h2>
+                            <p class="project__description">
+                                You can contact me for collaboration in any Project.
+                            </p>
+                            <a href="#contact" class="button button--flex button--white">
+                                Contact Me
+                                <i class="uil uil-message project__icon button__icon"></i>
+                            </a>
+                        </div>
+
+                        <img src="assets/img/project-management.png" alt="Image Coming Soon" class="project__img">
+                        <div>
+
+                        </div>                    
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section hidden" id="contact">
+                <h2 class="section__title">
+                    Contact Me
+                </h2>
+                <span class="section__subtitle">
+                    Get in touch
+                </span>
+
+                <div class="contact__container container grid">
+                    <div>
+                        <div class="contact__information">
+                            <i class="uil uil-envelope contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">
+                                    Email
+                                </h3>
+                                <span class="contact__subtitle">
+                                    aryanadiverma@gmail.com
+                                </span>
+                            </div>
+                        </div>
+                        <div class="contact__information">
+                            <i class="uil uil-map-marker contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">
+                                    Location
+                                </h3>
+                                <span class="contact__subtitle">
+                                    Chennai, India
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <form action="" class="contact__form grid">
+                        <div class="contact__inputs grid">
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Name</label>
+                                <input type="text" class="contact__input">
+                            </div>
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Email</label>
+                                <input type="email" class="contact__input">
+                            </div>
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Project</label>
+                            <input type="text" class="contact__input">
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Message</label>
+                            <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                        </div>
+
+                        <div>
+                            <a href="" class="button button--flex">
+                                Send Message
+                                <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Aryan Verma</p>
+            <div class="footer__social">
+                <a href="https://www.linkedin.com/in/aryverma/" class="footer__icon"><i class='uil uil-linkedin button__icon' ></i></a>
+                <a href="https://github.com/aryanverma7" class="footer__icon"><i class='uil uil-github-alt button__icon' ></i></a>
+                <a href="https://twitter.com/Aryannnvx" class="footer__icon"><i class='uil uil-twitter-alt button__icon' ></i></a>
+                <a href="https://join.skype.com/invite/u8gQLKfU5znm" class="footer__icon"><i class='uil uil-skype-alt button__icon' ></i></a>
+                <a href="mailto:aryanadiverma@gmail.com" class="footer__icon"><i class='uil uil-envelope button__icon' ></i></a>
+            </div>
+            <p class="footer__copy">
+                &#169; Aryan Verma. All rights reserved.
+            </p>
+        </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script defer src="assets/js/main.js"></script>
+    </body>
 </html>
